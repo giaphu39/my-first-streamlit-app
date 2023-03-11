@@ -1,4 +1,6 @@
 import streamlit as st
+import sklearn
+import plotly
 st.title('GIẢI PHƯƠNG TRÌNH BẬC NHẤT')
 a = st.number_input('tham số a',min_value=1)
 b = st.number_input('tham số b',min_value=2)
